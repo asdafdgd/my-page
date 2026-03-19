@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캐릭터 점프 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>캐릭터 점프 게임</h1>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div id="score-board">점수: 0 | 최고 점수: <span id="high-score">0</span></div>
+        <button id="start-btn">게임 시작</button>
+        <div id="dashboard">
+            <h3>최근 기록</h3>
+            <ul id="score-history"></ul>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

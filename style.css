@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+}
+
+#game-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    border-bottom: 2px solid #333;
+    display: block;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+#score-board {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#start-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+#start-btn:hover {
+    background-color: #45a049;
+}
+
+#dashboard {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#dashboard h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#score-history {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+#score-history li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #f0f0f0;
+}
+
+#score-history li:last-child {
+    border-bottom: none;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    color: #666;
+}
