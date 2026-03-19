@@ -16,6 +16,14 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+#author-info {
+    font-size: 1rem;
+    color: #555;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 canvas {
     border-bottom: 2px solid #333;
     display: block;
